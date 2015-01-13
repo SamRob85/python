@@ -1,6 +1,6 @@
 import math
 from datetime import datetime
-date=input("What date do you want to find the distance from?")
+date=input("What date do you want to find the distance from??")
 d = datetime.now()
 d1 = datetime.strptime(date, '%d/%m/%Y')
 x=(d-d1).days

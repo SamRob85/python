@@ -1,7 +1,11 @@
 num=int(input("Decimal"))
-digit1=0
-digit2=0
-digit3=0
+x="{0:b}".format(num)
+y=len(x)
+digit1=x[0]
+if(y>1):
+    digit2=x[1]
+if(y>2):
+    digit3=x[2]
 
 import RPi.GPIO as GPIO
 import time
